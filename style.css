@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
 body {
     background-color: #d4d4d4;
     margin: 0px;
@@ -33,6 +38,12 @@ section {
     justify-content: space-evenly;
     align-items: center;
 }
+
+/* div {
+    margin: 10px;
+    border-radius: 5px;
+    background-color: blue;
+} */
 
 header img {
     height: 90%;
