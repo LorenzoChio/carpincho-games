@@ -19,13 +19,23 @@ header {
     align-items: center;
 }
 
+header a {
+    margin-left: 10px;
+}
+
 main {
     height: 80vh;
 }
 
-footer {
-    height: 10vh;
-    background-color: #3A405A;
+div {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #b9b9bc;
+    color: #3A405A;
+}
+
+div:hover {
+    box-shadow: 0px 5px 5px 0px;
 }
 
 h1 {
@@ -39,22 +49,15 @@ section {
     align-items: center;
 }
 
-/* div {
-    margin: 10px;
-    border-radius: 5px;
-    background-color: blue;
-} */
-
-header img {
-    height: 90%;
-    margin: 10px;
-}
-
 .screenshot {
     width: 400px;
-    box-shadow: 5px 5px #b9b9bc;
 }
 
-.screenshot:hover {
-    box-shadow: 12px 12px #b9b9bc;
+.logo-img {
+    height: 100%;
+}
+
+.logo-link {
+    height: 9vh;
+    align-content: center;
 }
