@@ -20,26 +20,44 @@ header {
 }
 
 header a {
-    margin-left: 10px;
+    padding-left: 10px;
 }
 
 main {
-    height: 80vh;
+    height: 85vh;
+}
+
+footer {
+    background-color: #98989c;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a:hover {
+    color: #00ccff;
 }
 
 div {
     padding: 10px;
     border-radius: 5px;
-    background-color: #b9b9bc;
+    background-color: #a9a9ad;
     color: #3A405A;
+    box-shadow: 0px 5px 5px 3px;
 }
 
-div:hover {
-    box-shadow: 0px 5px 5px 0px;
+.selector:hover {
+    box-shadow: 0px 0px 0px 0px;
+    background-color: #98989c;
 }
 
 h1 {
     margin: 0px;
+}
+
+h1:hover {
+    color: #38ABC8;
 }
 
 section {
@@ -60,4 +78,9 @@ section {
 .logo-link {
     height: 9vh;
     align-content: center;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
 }
